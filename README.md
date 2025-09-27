@@ -64,3 +64,35 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/shindupratama/Juicebox.git project-name
+```
+
+Go to the project directory
+
+```bash
+  cd project-name
+```
+
+-   Copy .env.example file to .env and edit database credentials there
+
+```bash
+    composer install
+```
+
+```bash
+    php artisan key:generate
+```
+
+```bash
+    php artisan migrate
+```
+
+```bash
+    php artisan storage:link
+```
